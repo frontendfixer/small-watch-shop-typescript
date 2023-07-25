@@ -4,7 +4,7 @@ import { ReducerActionType } from '../context/CartProvider'
 
 type PropsType = {
   product: ProductType
-  dispatch: React.Dispatch<ReducerAction>
+  dispatch: React.Dispatch<ReducerAction<any>>
   REDUCER_ACTIONS: ReducerActionType
   inCart: boolean
 }
