@@ -3,7 +3,7 @@ import { CartItemType, ReducerActionType } from '../context/CartProvider'
 
 type PropsType = {
   item: CartItemType
-  dispatch: React.Dispatch<ReducerAction<any>>
+  dispatch: React.Dispatch<ReducerAction>
   REDUCER_ACTIONS: ReducerActionType
 }
 
